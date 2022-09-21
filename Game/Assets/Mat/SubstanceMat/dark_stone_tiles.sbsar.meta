@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20a23a074d7b22a49938b26da56b77e0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 713ff89d469887d4fa3da51a8c27a088, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Mat/SubstanceMat/dark_stone_tiles.sbsar

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e1dd8f24416220a48bf2cd358bd3e94b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 7afb0d10bb22dea4eb0b0231d7fc150f, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Mat/SubstanceMat/hell_lava_ground_01.sbsar
