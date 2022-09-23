@@ -37,6 +37,7 @@ public class PaintHole : MonoBehaviour
 
         alphaData = tData.GetAlphamaps(0, 0, tData.alphamapWidth, tData.alphamapHeight);
 
+     
         //  SetPercentage(50);
 
         //ResetHeights(); // FOR TESTING, reset to flat terrain
@@ -87,7 +88,6 @@ public class PaintHole : MonoBehaviour
         heightmapHeight = terrain.terrainData.heightmapResolution;
 
         heightmapData = terrainData.GetHeights(0, 0, heightmapWidth, heightmapHeight);
-        b = terrainData.GetHoles(0, 0, heightmapWidth - 1, heightmapHeight - 1);
 
     }
 
@@ -264,6 +264,8 @@ public class PaintHole : MonoBehaviour
         // End --2--
         // --3--
         float[,] heights = terrain.terrainData.GetHeights(terX, terZ, 2, 2);
+        b = terrainData.GetHoles(terX, terZ, 2, 2);
+
 
         for (int xx = 0; xx < 2; xx++)
         {
@@ -271,10 +273,13 @@ public class PaintHole : MonoBehaviour
             {
 
                 heights[xx, yy] -= (effectIncrement * Time.smoothDeltaTime);
-                b[xx, yy] = (terX < 20 && terX > 20 && terZ < 20 && terZ > 20);
+
+                b[xx, yy] = !(xx > 2 && xx < 2 && yy > 2 && yy <2);
             }
         }
-        if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3) terrain.terrainData.SetHoles(0, 0, b);
+        //  if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3) { Debug.Log("dig"); }
+        
+        terrain.terrainData.SetHoles(0, 0, b);
         terrain.terrainData.SetHeights(terX, terZ, heights);
     }
 
