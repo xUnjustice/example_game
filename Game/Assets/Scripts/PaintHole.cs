@@ -18,6 +18,10 @@ public class PaintHole : MonoBehaviour
     private float[,,] alphaData;
     private TerrainData tData;
     private float percentage;
+    [SerializeField] private GameObject targetPoint; 
+    [SerializeField] private Camera camera;
+
+    
 
     private const int DESERT = 0; //These numbers depend on the order in which
     private const int GRASS = 1; //the textures are loaded onto the terrain
@@ -30,8 +34,12 @@ public class PaintHole : MonoBehaviour
     {
         GetTerrainData();
         tData = terrain.terrainData;
+
         alphaData = tData.GetAlphamaps(0, 0, tData.alphamapWidth, tData.alphamapHeight);
 
+        //  SetPercentage(50);
+
+        //ResetHeights(); // FOR TESTING, reset to flat terrain
     }
 
 
@@ -48,7 +56,9 @@ public class PaintHole : MonoBehaviour
         GetHeightmapPosition();
 
         if (Input.GetMouseButton(0) && rayHitPoint != Vector3.zero)
-            PaintCircle(heightmapPos);
+            RaiseTerrain(terrain, new Vector3(heightmapPos.x, heightmapPos.y, heightmapPos.z), paintWeight);
+
+        //  PaintCircle(heightmapPos);
     }
 
 
@@ -91,14 +101,14 @@ public class PaintHole : MonoBehaviour
         rayHitPoint = Vector3.zero;
 
         RaycastHit hit;
-        Ray rayPos = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray rayPos = camera.ScreenPointToRay(Input.mousePosition);
 
         if (!Physics.Raycast(rayPos, out hit, Mathf.Infinity)) // also consider a layermask to just the terrain layer
         {
             return;
         }
         rayHitPoint = hit.point;
-        Debug.DrawLine(Camera.main.transform.position, hit.point, Color.red, rayTimeInterval);
+        Debug.DrawLine(camera.transform.position, hit.point, Color.red, rayTimeInterval);
     }
 
 
@@ -150,16 +160,16 @@ public class PaintHole : MonoBehaviour
                         // add paintWeight to the current height
                         heightY -= paintWeight;
                         // reach the bottom
-                      //  Debug.Log(terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z));
+                        Debug.Log(terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z)
+);
 
                         // update heightmapData array
                         heightmapData[heightZ, heightX] = heightY;
-                        if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3)
-                            b[heightZ, heightX] = (heightX < 20 && heightX > 20 && heightZ < 20 && heightZ > 20);
-                        // alphaData[heightZ, heightX, DESERT] = 1 - percentage;
-                        //   alphaData[heightZ, heightX, GRASS] = percentage;
-                    }
+                        b[heightZ, heightX] = (heightX < 20 && heightX > 20 && heightZ < 20 && heightZ > 20);
 
+                        alphaData[heightZ, heightX, DESERT] = 1 - percentage;
+                        alphaData[heightZ, heightX, GRASS] = percentage;
+                    }
 
 
                 }
@@ -167,15 +177,107 @@ public class PaintHole : MonoBehaviour
             }
         }
 
-        if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3) 
-            terrain.terrainData.SetHoles(0, 0, b);
+        if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3) terrain.terrainData.SetHoles(0, 0, b);
 
         // apply new heights to terrainData
         terrainData.SetHeights(0, 0, heightmapData);
         tData.SetAlphamaps(0, 0, alphaData);
 
     }
- 
+    public void SetPercentage(double perc)
+    {
+        percentage = (float)perc / 100f;
+
+        for (int y = 0; y < tData.alphamapHeight; y++)
+        {
+            for (int x = 0; x < tData.alphamapWidth; x++)
+            {
+                alphaData[x, y, DESERT] = percentage;
+                alphaData[x, y, GRASS] = 1 - percentage;
+            }
+        }
+
+        tData.SetAlphamaps(0, 0, alphaData);
+    }
+    void ResetHeights() // FOR TESTING, reset to flat terrain
+    {
+        int x;
+        int z;
+
+        for (z = 0; z < heightmapHeight; z++)
+        {
+            for (x = 0; x < heightmapWidth; x++)
+            {
+                heightmapData[z, x] = 0;
+            }
+        }
+
+        terrainData.SetHeights(0, 0, heightmapData);
+    }
+  /*  private void OnGUI()
+    {
+        if (GUI.Button(new Rect(30, 30, 200, 30), "change height"))
+        {
+            int xRes = terrain.terrainData.heightmapResolution;
+            int yRes = terrain.terrainData.heightmapResolution;
+
+
+            float[,] heights = terrain.terrainData.GetHeights(0, 0, xRes, yRes);
+
+            heights[10, 10] -= 0.01f;
+            terrain.terrainData.SetHeights(0, 0, heights);
+            //  bool[,] holes = terrain.terrainData.GetHoles(0,0,xRes,yRes);
+            //bool[,] holes[50, 50] = true;
+
+            // terrain.terrainData.SetHoles(0,0,holes);
+
+        }
+        if (GUI.Button(new Rect(30, 90, 200, 30), "add height"))
+        {
+            RaiseTerrain(terrain, new Vector3(heightmapPos.x, heightmapPos.y, heightmapPos.z), 0.01f);
+
+
+        }
+    }*/
+    public void RaiseTerrain(Terrain terrain, Vector3 location, float effectIncrement)
+    {
+        //  int offset = areaOfEffectSize / 2;
+
+        //--1--
+        Vector3 tempCoord = (location - terrain.GetPosition());
+        Vector3 coord;
+
+        coord = new Vector3(
+            (tempCoord.x / GetTerrainSize().x),
+            (tempCoord.y / GetTerrainSize().y),
+            (tempCoord.z / GetTerrainSize().z)
+            );
+
+        int terrainHeightMapWidth = terrain.terrainData.heightmapResolution;
+        int terrainHeightMapHeight = terrain.terrainData.alphamapHeight;
+        Vector3 locationInTerrain = new Vector3(coord.x * terrainHeightMapWidth, 0, coord.z * terrainHeightMapHeight);
+        // End --1--
+
+        // --2--
+        int terX = (int)tempCoord.x;
+        int terZ = (int)tempCoord.z;
+        // End --2--
+        // --3--
+        float[,] heights = terrain.terrainData.GetHeights(terX, terZ, 2, 2);
+
+        for (int xx = 0; xx < 2; xx++)
+        {
+            for (int yy = 0; yy < 2; yy++)
+            {
+
+                heights[xx, yy] -= (effectIncrement * Time.smoothDeltaTime);
+                b[xx, yy] = (terX < 20 && terX > 20 && terZ < 20 && terZ > 20);
+            }
+        }
+        if (terrain.terrainData.GetHeight((int)heightmapPos.x, (int)heightmapPos.z) < 3) terrain.terrainData.SetHoles(0, 0, b);
+        terrain.terrainData.SetHeights(terX, terZ, heights);
+    }
+
     private Vector3 GetTerrainSize()
     {
         return terrain.terrainData.size;
