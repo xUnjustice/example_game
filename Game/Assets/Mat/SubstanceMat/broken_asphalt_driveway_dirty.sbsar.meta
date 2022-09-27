@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 125fdbeb1bb5ea045890ae14c3c4a8d6
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 0442451fc9234424d96329de0a08bb5a, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Mat/SubstanceMat/broken_asphalt_driveway_dirty.sbsar
