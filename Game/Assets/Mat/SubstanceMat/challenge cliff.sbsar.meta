@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75bcdc6e84969be438997c37dce14b5b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 1fb1022321ca8034bb9dbf0ef05ca7ac, type: 2}
+  _fileAsset: {instanceID: 0}
+  _assetPath: Assets/Mat/SubstanceMat/challenge cliff.sbsar
