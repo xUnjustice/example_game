@@ -10,5 +10,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
   _instancesCopy:
   - {fileID: 11400000, guid: fb789d69ff3107646942d4a567ca345a, type: 2}
-  _fileAsset: {instanceID: 0}
+  - {fileID: 11400000, guid: d63d9e1452334dc43b5467d55c2bc8b5, type: 2}
+  _fileAsset: {fileID: 6013892654665635331, guid: 907cfc31d656cf44bbec18691f8e564a,
+    type: 3}
   _assetPath: Assets/Mat/SubstanceMat/crustylava.sbsar
