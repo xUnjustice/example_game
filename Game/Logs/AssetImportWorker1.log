@@ -15,7 +15,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50526
+62423
 Successfully changed project path to: C:/Users/Exo/Documents/GitHub/example_game/Game
 C:/Users/Exo/Documents/GitHub/example_game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 77.29 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 80.39 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004063 seconds.
+Registered in 0.004481 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.75 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 79.24 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.465 seconds
+- Completed reload, in  0.457 seconds
 Domain Reload Profiling:
-	ReloadAssembly (465ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (339ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (334ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (210ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
+				RefreshPlugins (79ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004522 seconds.
+Registered in 0.004334 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 86.95 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 83.29 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
+- Completed reload, in  0.965 seconds
 Domain Reload Profiling:
-	ReloadAssembly (973ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (191ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 5995.
-Memory consumption went from 232.4 MB to 230.6 MB.
-Total: 3.123500 ms (FindLiveObjects: 0.344500 ms CreateObjectMapping: 0.186100 ms MarkObjects: 2.283600 ms  DeleteObjects: 0.308600 ms)
+Unloading 5556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 5996.
+Memory consumption went from 233.2 MB to 231.4 MB.
+Total: 3.340200 ms (FindLiveObjects: 0.347700 ms CreateObjectMapping: 0.206900 ms MarkObjects: 2.456000 ms  DeleteObjects: 0.328300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,7 +162,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20489.758064 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked
-  artifactKey: Guid(bfb3f636e12acd9408fb8bbc0cdd46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked using Guid(bfb3f636e12acd9408fb8bbc0cdd46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ed3858deea609fb990e96ed764753a') in 0.010841 seconds 
+  Time since last request: 8259.883861 seconds.
+  path: Assets/Mat/Crystal/M_CrystalRock.mat
+  artifactKey: Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_CrystalRock.mat using Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597b843a28205d304b2bfb8a850a19e0') in 0.180972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2156.668166 seconds.
+  path: Assets/Mat/Crystal/M_CrystalRock.mat
+  artifactKey: Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_CrystalRock.mat using Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78350dfbaf900bf071cee15315fa2390') in 1.022654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1387.609899 seconds.
+  path: Assets/Mat/Crystal/M_CrystalRock.mat
+  artifactKey: Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_CrystalRock.mat using Guid(585754bd5dfab734495142611fdd4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214d59d73ec8eefc7324f1bbe8ff089d') in 0.231967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 698.989093 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx
+  artifactKey: Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx using Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6ed1749ffc690775e9f7ba7e56a7c0') in 0.093882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx
+  artifactKey: Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx using Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2676fae5f7baeefa4a98018d2169e17f') in 0.100991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1227.932018 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/challenge cliff.sbsar
+  artifactKey: Guid(75bcdc6e84969be438997c37dce14b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/challenge cliff.sbsar using Guid(75bcdc6e84969be438997c37dce14b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56760af12fdcfbf1ec2d5751b0dddbd8') in 0.099673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/dark_stone_tiles.sbsar
+  artifactKey: Guid(20a23a074d7b22a49938b26da56b77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/dark_stone_tiles.sbsar using Guid(20a23a074d7b22a49938b26da56b77e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f4f0bba3725bef48d201c86617b307') in 0.057446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/crustylava.sbsar
+  artifactKey: Guid(907cfc31d656cf44bbec18691f8e564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/crustylava.sbsar using Guid(907cfc31d656cf44bbec18691f8e564a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca780e79e6536b0ca9ebf831408b997') in 0.148104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.091887 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_emissive.tga
+  artifactKey: Guid(956f0433dfd2d3444b36cccea7770b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_emissive.tga using Guid(956f0433dfd2d3444b36cccea7770b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c854488d44f6485ee19e343f9959db2') in 0.029444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_baseColor.tga
+  artifactKey: Guid(1434d2115cc7f6449bddcf32980ed986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_baseColor.tga using Guid(1434d2115cc7f6449bddcf32980ed986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3052b562ce8105f9c546962825cf366f') in 0.040533 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

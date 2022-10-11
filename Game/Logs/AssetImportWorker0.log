@@ -15,7 +15,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50526
+62423
 Successfully changed project path to: C:/Users/Exo/Documents/GitHub/example_game/Game
 C:/Users/Exo/Documents/GitHub/example_game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 78.30 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 83.16 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,79 +63,79 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004410 seconds.
+Registered in 0.004505 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.50 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 77.13 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.471 seconds
+- Completed reload, in  0.458 seconds
 Domain Reload Profiling:
-	ReloadAssembly (471ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (458ms)
+		BeginReloadAssembly (43ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (344ms)
-			LoadAssemblies (46ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (74ms)
+			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (216ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
+				RefreshPlugins (77ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004509 seconds.
+Registered in 0.004705 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.59 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 80.51 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
+- Completed reload, in  0.935 seconds
 Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (445ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
@@ -143,12 +143,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 5995.
-Memory consumption went from 232.4 MB to 230.6 MB.
-Total: 3.711200 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.220500 ms MarkObjects: 2.588000 ms  DeleteObjects: 0.446500 ms)
+Unloading 5556 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 5996.
+Memory consumption went from 233.2 MB to 231.4 MB.
+Total: 2.842300 ms (FindLiveObjects: 0.345700 ms CreateObjectMapping: 0.187200 ms MarkObjects: 1.954300 ms  DeleteObjects: 0.354200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,61 +162,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20490.697390 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0
-  artifactKey: Guid(545e8599484a21b43a0a17755ebcf3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0 using Guid(545e8599484a21b43a0a17755ebcf3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8908cb8ca1e17978d43aa4c014c7b368') in 0.015025 seconds 
+  Time since last request: 8259.865270 seconds.
+  path: Assets/Mat/Crystal/M_Crystal.mat
+  artifactKey: Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_Crystal.mat using Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85ca0c607f47c3054fb0396105f432f') in 0.173352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.986231 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0
-  artifactKey: Guid(738bb28fe2931a14b87b76519c24e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0 using Guid(738bb28fe2931a14b87b76519c24e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9826d473850e4a03c860f0d1521cc2') in 0.005449 seconds 
+  Time since last request: 33.573834 seconds.
+  path: Assets/Mat/Crystal/SH_CrystalRock.shadergraph
+  artifactKey: Guid(cb7dede5ced57c544b858e787bd855f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/SH_CrystalRock.shadergraph using Guid(cb7dede5ced57c544b858e787bd855f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabb79416bb773c27e2ea2196b0f49b8') in 0.005913 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.765504 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0
-  artifactKey: Guid(f4124418f0bab664f9fa96189304ab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0 using Guid(f4124418f0bab664f9fa96189304ab2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fe13e502c64ef1f127a7d32596d73d') in 0.002006 seconds 
+  Time since last request: 144.197764 seconds.
+  path: Assets/Mat/Crystal/SH_CrystalRock.shadergraph
+  artifactKey: Guid(cb7dede5ced57c544b858e787bd855f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/SH_CrystalRock.shadergraph using Guid(cb7dede5ced57c544b858e787bd855f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc1cff68ee42bff2bcef5fe53d9e27') in 0.002703 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.951596 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0
-  artifactKey: Guid(788b607209c7df34f81013a08922a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0 using Guid(788b607209c7df34f81013a08922a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b866a2d4449d75d79b320413376acb5') in 0.006256 seconds 
+  Time since last request: 34.189029 seconds.
+  path: Assets/Geo/Crystals/crystal01.fbx
+  artifactKey: Guid(31d47d837c096fb47af47ccc595ffd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Crystals/crystal01.fbx using Guid(31d47d837c096fb47af47ccc595ffd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf494ad9cdeba2b31ebfa7f602a04cb') in 0.089053 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.832491 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain
-  artifactKey: Guid(1411b81b8b1fbd9449c4b70cb4f011cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain using Guid(1411b81b8b1fbd9449c4b70cb4f011cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f950a972a4f28bfb9709c3c6f594f1') in 0.005529 seconds 
+  Time since last request: 16.913953 seconds.
+  path: Assets/Geo/Crystals/crystal01.fbx
+  artifactKey: Guid(31d47d837c096fb47af47ccc595ffd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Crystals/crystal01.fbx using Guid(31d47d837c096fb47af47ccc595ffd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06aabb66dadcdf0dceaaa2d2ace9254') in 0.106330 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.694276 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain/Tile0
-  artifactKey: Guid(90d83aba91a0b4647a937f0fe787f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain/Tile0 using Guid(90d83aba91a0b4647a937f0fe787f6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee5d8f7233b744d197aa2dc40b53b1b') in 0.006619 seconds 
+  Time since last request: 1927.584464 seconds.
+  path: Assets/Mat/Crystal/M_Crystal.mat
+  artifactKey: Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_Crystal.mat using Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc261e11661261f64659bfe37932fa5') in 0.014680 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.128985 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain/Tile0/TerrainData.asset
-  artifactKey: Guid(de505703c8fa4f147919f2f643398e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plain_terrain_1_0/sop_admin.dev.plain_terrain.1.0/plain_terrain_1_0/output0/Terrain/Tile0/TerrainData.asset using Guid(de505703c8fa4f147919f2f643398e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0c3deb0773db1065bdbba34c1673d8') in 0.139833 seconds 
+  Time since last request: 914.556551 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647007d66f938c12bb1922e2f28650ca') in 0.076319 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.958350 seconds.
-  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_1
-  artifactKey: Guid(ec4069ab1c542b34ebe9fc96b68efece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_1 using Guid(ec4069ab1c542b34ebe9fc96b68efece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6630bcec870daf3324c670d5f7cb9f0d') in 0.005665 seconds 
+  Time since last request: 16.925171 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b235fd9eeea7017d1ef658e6fa3b54b') in 0.064739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.982323 seconds.
-  path: Assets/Geo/New Folder
-  artifactKey: Guid(6231c20a3757378488e72cb3315f909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/New Folder using Guid(6231c20a3757378488e72cb3315f909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b796f162810176dc40256c3165c7c735') in 0.005410 seconds 
+  Time since last request: 86.522367 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748b7a172c2ba438c09a8f0c7320a14a') in 0.075016 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.407183 seconds.
-  path: Assets/Geo/Prefabs
-  artifactKey: Guid(6231c20a3757378488e72cb3315f909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Prefabs using Guid(6231c20a3757378488e72cb3315f909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e176043d8c24fdfe2e952cc6f84db4') in 0.005477 seconds 
+  Time since last request: 54.937957 seconds.
+  path: Assets/Mat/LavaRock
+  artifactKey: Guid(47044d2f39feafb4bac9ed8c88145342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/LavaRock using Guid(47044d2f39feafb4bac9ed8c88145342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6880945dfc2784644342a9c3408c4a64') in 0.004013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.700958 seconds.
+  path: Assets/Mat/LavaRock/M_CrystalRock.mat
+  artifactKey: Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/LavaRock/M_CrystalRock.mat using Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f137fb0b5399136fdabc0fa56852628') in 1.026679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.360021 seconds.
+  path: Assets/Mat/LavaRock/M_PillarRock.mat
+  artifactKey: Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/LavaRock/M_PillarRock.mat using Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d112eeac27d2b3008a1a7223010ed88') in 0.015433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.593728 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16923485aa7f3e89236ea63c1923cfe') in 0.074424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.841269 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32850ca45bddce690b907d4554729398') in 0.067223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.113399 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9174af74a6a8280bc92c4b5b25635b5c') in 0.039267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.185990 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7096cdf8acb9e5ca6b36da08571c133b') in 0.040499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.820059 seconds.
+  path: Assets/Mat/PlainScatterRocks/M_Rocks04.mat
+  artifactKey: Guid(4732f9da029753b45983a81d1e43ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/PlainScatterRocks/M_Rocks04.mat using Guid(4732f9da029753b45983a81d1e43ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f754c26b83948d048c773eb4d0ef54d') in 0.042013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.319200 seconds.
+  path: Assets/Textures/Trees/TexturesCom_Leaves0166_1_masked_S.png
+  artifactKey: Guid(685ba67ca5024db48953553aea6a0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Trees/TexturesCom_Leaves0166_1_masked_S.png using Guid(685ba67ca5024db48953553aea6a0bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b2104db71f26cf5dacc92ef63e5b49') in 0.050129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.077142 seconds.
+  path: Assets/Mat/Crystal/M_Crystal.mat
+  artifactKey: Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Crystal/M_Crystal.mat using Guid(0d2134ce713d6ec44b497676bacc198f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f07cc3b6d4a3d51be7a2501ac3ce050') in 0.169941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 514.522031 seconds.
+  path: Assets/Mat/LavaRock/M_PillarRock.mat
+  artifactKey: Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/LavaRock/M_PillarRock.mat using Guid(3ce70be52a33fd9489e5c559b175de67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65362da6fc04a1de37c36b5b7413fdc') in 0.125283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.395069 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1c144bcf7f933d4d1f5fddecc59b2e') in 0.049813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx
+  artifactKey: Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx using Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756b4ad5889b669f5fb41bb01be3b08a') in 0.126300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.686518 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx
+  artifactKey: Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx using Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b331f7b1ff69363c465d5f0510d248') in 0.051630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.022723 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx
+  artifactKey: Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx using Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce707df36ad9a7d9af42957953dca80c') in 0.060400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.090975 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx
+  artifactKey: Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx using Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81524d468cf93e9e238083d9a146fa1') in 0.065823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.533686 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx
+  artifactKey: Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx using Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89384c9b5836776fe92266084430150f') in 0.075438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 851.831818 seconds.
+  path: Assets/HDA/sop_Exo.dev.underground_terrain_Scatter.1.0.hda
+  artifactKey: Guid(d23db25331513fd409622780cb8ebaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/sop_Exo.dev.underground_terrain_Scatter.1.0.hda using Guid(d23db25331513fd409622780cb8ebaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6382313f5571c459ee7f1861fc75e502') in 0.007030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.405616 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx
+  artifactKey: Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar04.fbx using Guid(328c0fd2cca0c0741bf796e2373dcd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b03b48c3c517760128820efaef8217') in 0.044534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.670839 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx
+  artifactKey: Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar03.fbx using Guid(20d480bfe8a683b4fbf3c8f56df6f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeee1af2e10daf1edebc891bae56129') in 0.154484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.711693 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx
+  artifactKey: Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar02.fbx using Guid(a287bf1a0b441db49a8750a7ff68444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1517ac0738a59e5a56b5a9e89d459f85') in 0.042244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.513892 seconds.
+  path: Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx
+  artifactKey: Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Geo/Rocks/HoudiniGenRock/rockPillar01.fbx using Guid(bfe04785a87ad274ebf43fb6ea606e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6b6e397cd3ea8b51a42aa063f21dee') in 0.083071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.283285 seconds.
+  path: Assets/Adobe/Substance3DForUnity
+  artifactKey: Guid(6d5a937b6bf5b334691e52ffb392b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adobe/Substance3DForUnity using Guid(6d5a937b6bf5b334691e52ffb392b3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cc8d506d4f9c0dff789df6717798ef') in 0.004339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.538017 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/broken_asphalt_driveway_dirty.sbsar
+  artifactKey: Guid(125fdbeb1bb5ea045890ae14c3c4a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/broken_asphalt_driveway_dirty.sbsar using Guid(125fdbeb1bb5ea045890ae14c3c4a8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff155749b888821035385ec5e1f8731') in 0.122593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/rocksubstance003.sbsar
+  artifactKey: Guid(234eb4061476f1740b8d7c28a7e5419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/rocksubstance003.sbsar using Guid(234eb4061476f1740b8d7c28a7e5419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc96ecd4bd46319b737e089d6fb8d3') in 0.095299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/grass.sbsar
+  artifactKey: Guid(8cf4de9835a74504ca50e08faa4124df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/grass.sbsar using Guid(8cf4de9835a74504ca50e08faa4124df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d714b283598b8a8810da23d6cf8726') in 0.079293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/fertile dirt ground.sbsar
+  artifactKey: Guid(ef99a7220d584e54283c66732c489f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/fertile dirt ground.sbsar using Guid(ef99a7220d584e54283c66732c489f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93552ff77418ab5e3613495d79578256') in 0.061838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.030709 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_specular.tga
+  artifactKey: Guid(469696441037dd44e8688dd29213c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_specular.tga using Guid(469696441037dd44e8688dd29213c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da463fc25fc69a13240f47a9a3afaf80') in 0.022895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_metallic.tga
+  artifactKey: Guid(8f69c3345831b8a4a86481f1a8a2cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mat/Terrains/SubstanceMat/crustylava_graph_0_copy/crustylava_metallic.tga using Guid(8f69c3345831b8a4a86481f1a8a2cd33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2104ba99133a5cfbd200738a2e1b2af') in 0.015317 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
