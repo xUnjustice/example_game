@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: labs_shader1
+    second: {fileID: 2100000, guid: 2e6d538488eaa07428e0e72a3d975916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: principledshader
     second: {fileID: 2100000, guid: 08dff19c265d13444927dc8f2de3e115, type: 2}
   materials:
