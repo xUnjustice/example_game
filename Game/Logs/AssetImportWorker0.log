@@ -15,7 +15,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49469
+53058
 Successfully changed project path to: C:/Users/Exo/Documents/GitHub/example_game/Game
 C:/Users/Exo/Documents/GitHub/example_game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 84.59 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 93.16 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,76 +63,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004287 seconds.
+Registered in 0.004283 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 80.41 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 80.60 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.466 seconds
+- Completed reload, in  0.483 seconds
 Domain Reload Profiling:
-	ReloadAssembly (466ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (484ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (345ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (364ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (213ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (237ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004746 seconds.
+Registered in 0.004824 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 83.52 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 81.72 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (976ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
+			CreateAndSetChildDomain (13ms)
 		EndReloadAssembly (817ms)
-			LoadAssemblies (66ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (459ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (74ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (73ms)
 				ProcessInitializeOnLoadAttributes (239ms)
 				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (5ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5597 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 6039.
 Memory consumption went from 245.1 MB to 243.3 MB.
-Total: 3.892600 ms (FindLiveObjects: 0.465900 ms CreateObjectMapping: 0.275600 ms MarkObjects: 2.723700 ms  DeleteObjects: 0.426500 ms)
+Total: 2.937500 ms (FindLiveObjects: 0.375100 ms CreateObjectMapping: 0.190100 ms MarkObjects: 2.017600 ms  DeleteObjects: 0.353900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,67 +162,182 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29096.387639 seconds.
-  path: Assets/Geo/Pillars/LargePillar3.fbx
-  artifactKey: Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar3.fbx using Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a55a5fd6d5fe5e1edb32fabf2fd4c') in 0.301718 seconds 
+  Time since last request: 25895.492735 seconds.
+  path: Assets/HDA/sop_Exo.dev.Grass_from_rocks.1.0.hda
+  artifactKey: Guid(cc20431c6deb9c546a86d6c07adcb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/sop_Exo.dev.Grass_from_rocks.1.0.hda using Guid(cc20431c6deb9c546a86d6c07adcb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e91f8199c8a232d7480d1adcc30bd1') in 0.032159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.738452 seconds.
-  path: Assets/Geo/Pillars/LargePillar4.fbx
-  artifactKey: Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar4.fbx using Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042d7b34b70eb73abd46fd2c872a5a4f') in 0.075189 seconds 
+  Time since last request: 718.835399 seconds.
+  path: Assets/HDA/sop_Exo.dev.Grass_from_rocks.1.0.hda
+  artifactKey: Guid(cc20431c6deb9c546a86d6c07adcb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/sop_Exo.dev.Grass_from_rocks.1.0.hda using Guid(cc20431c6deb9c546a86d6c07adcb58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e4dd496279873d30b24d82ca411c69') in 0.002013 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.579702 seconds.
-  path: Assets/Geo/Pillars/LargePillar5.fbx
-  artifactKey: Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar5.fbx using Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd653c50ea4f94da85d897c81e5de7b71') in 0.090380 seconds 
+  Time since last request: 3965.445529 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/plainscatter_1_2.prefab
+  artifactKey: Guid(71db0749c43f3fc4c9adf8a5642880e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/plainscatter_1_2.prefab using Guid(71db0749c43f3fc4c9adf8a5642880e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590e601b15abcd0975a9d92d2cbf9a54') in 11.476569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1082.464117 seconds.
-  path: Assets/Geo/Pillars/LargePillar2.fbx
-  artifactKey: Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar2.fbx using Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10a2aaa605590edfbf7789a609927af') in 0.343524 seconds 
+  Time since last request: 23.155134 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0
+  artifactKey: Guid(b6d7d72fd2a5ca34eb32badd83fb6469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0 using Guid(b6d7d72fd2a5ca34eb32badd83fb6469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97531b619d50dc11513cece30478e2a5') in 0.001706 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Geo/Pillars/LargePillar4.fbx
-  artifactKey: Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar4.fbx using Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ae17d73e1566f48c5b6689faab6d58') in 0.063819 seconds 
+  Time since last request: 1.085914 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2
+  artifactKey: Guid(2820fb68bfcb6ff429fe14e5a12659cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2 using Guid(2820fb68bfcb6ff429fe14e5a12659cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abd1a38a4a1fbe5bc24164f4c95e210') in 0.001672 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.906213 seconds.
-  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/BackdropTerrain.mat
-  artifactKey: Guid(e05d92d9c535763418dfbd65bb8a703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/BackdropTerrain.mat using Guid(e05d92d9c535763418dfbd65bb8a703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fc80caf463f796a0d42789c4fd27b') in 0.580883 seconds 
+  Time since last request: 0.679496 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0
+  artifactKey: Guid(2caf16be523f8b9469f8f06aef233fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0 using Guid(2caf16be523f8b9469f8f06aef233fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba555fcc54ed2ae3722eb39c32cea1ea') in 0.005420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.960977 seconds.
-  path: Assets/Mat/Terrains/SubstanceMat/challenge cliff_graph_0/challenge cliff_graph_0_material.mat
-  artifactKey: Guid(f073d553b2926c04cbe048466a919f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mat/Terrains/SubstanceMat/challenge cliff_graph_0/challenge cliff_graph_0_material.mat using Guid(f073d553b2926c04cbe048466a919f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da1f81f12a1f64dbca1fc2e9d5ab000') in 0.095595 seconds 
+  Time since last request: 0.649166 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain
+  artifactKey: Guid(eef5c74615c3caf4fb58f41c0b309204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain using Guid(eef5c74615c3caf4fb58f41c0b309204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecb2e6d04a8ef408755ecf5bf45e398') in 0.004422 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.007473 seconds.
-  path: Assets/Geo/Pillars/LargePillar2.fbx
-  artifactKey: Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar2.fbx using Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ab6c3f9fb287795317f7f0fb4e8f3') in 0.173144 seconds 
+  Time since last request: 0.601979 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain/Tile0
+  artifactKey: Guid(6afbcf5ddba7e6446a6ac79409a68239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain/Tile0 using Guid(6afbcf5ddba7e6446a6ac79409a68239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ed20c8cedb89596322187037e535e8') in 0.004832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.412985 seconds.
-  path: Assets/Geo/Pillars/LargePillar3.fbx
-  artifactKey: Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar3.fbx using Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4fbadf4e99be51b36b4639150fa158') in 0.247613 seconds 
+  Time since last request: 0.165622 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain/Tile0/TerrainData.asset
+  artifactKey: Guid(3b6c48011ec03f04797ba7828939b5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2/sop_Exo.dev.plainscatter.1.0/plainscatter_1_2/output0/Terrain/Tile0/TerrainData.asset using Guid(3b6c48011ec03f04797ba7828939b5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16bc2171ae862c45c655c00dbcd856') in 0.094067 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.80 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (808ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5418 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (2.0 MB). Loaded Objects now: 6119.
+Memory consumption went from 450.9 MB to 448.9 MB.
+Total: 2.867700 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.173600 ms MarkObjects: 1.887200 ms  DeleteObjects: 0.487200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.539515 seconds.
-  path: Assets/Geo/Pillars/LargePillar4.fbx
-  artifactKey: Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar4.fbx using Guid(3adb412c59de904469e3911814ff28b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730ba6e5fa2587b78491345838d3dbbc') in 0.294130 seconds 
+  Time since last request: 305.658655 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0
+  artifactKey: Guid(a38cfa7f5b5690545b794e973ea460a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0 using Guid(a38cfa7f5b5690545b794e973ea460a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785514552baf1cddbbb4e9d059c1f935') in 0.011338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.343762 seconds.
-  path: Assets/Geo/Pillars/LargePillar5.fbx
-  artifactKey: Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar5.fbx using Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb99e8c4eaa1e14aaebcbe47f62f743') in 0.180470 seconds 
+  Time since last request: 0.698416 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0
+  artifactKey: Guid(b59e561ddde32f84082ea4b8ebfd0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0 using Guid(b59e561ddde32f84082ea4b8ebfd0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e37a8a53611190e1e8c4331f33c32a5') in 0.004778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.622322 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0
+  artifactKey: Guid(747f9204bd968fd459ea3e9f54718cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0 using Guid(747f9204bd968fd459ea3e9f54718cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610429d632956357bae884f7c5686b7d') in 0.004655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.736869 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain
+  artifactKey: Guid(cb1c6f26d57e91d448b8e087e6f4738d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain using Guid(cb1c6f26d57e91d448b8e087e6f4738d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe20f65d21e872bc7917a2bd4194f62') in 0.001868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.050072 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain/Tile0
+  artifactKey: Guid(6669f5388eedc13469332878033968b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain/Tile0 using Guid(6669f5388eedc13469332878033968b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275b358310c4de5fb752a3bb54e956a5') in 0.002316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243226 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain/Tile0/TerrainData.asset
+  artifactKey: Guid(008ea26ac90f876458b7bdd09c6f2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/_SmallunderGround_Terrain_1_0/sop_Exo.dev._SmallunderGround_Terrain.1 1.0/_SmallunderGround_Terrain_1_0/output0/Terrain/Tile0/TerrainData.asset using Guid(008ea26ac90f876458b7bdd09c6f2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74fcda0a080d6d9a2b08b9380f2d7d7') in 0.185079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.942058 seconds.
+  path: Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2
+  artifactKey: Guid(960f98c2306d54b498441a5387f621c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HoudiniEngineAssetCache/Baked/plainscatter_1_2 using Guid(960f98c2306d54b498441a5387f621c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880a9f9b27b5ed9d9e795d21b8f1dba4') in 0.003511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.604003 seconds.
+  path: Assets/StylizedWater2/Quickstart.pdf
+  artifactKey: Guid(0ed677062fe80e645b990863ab31ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Quickstart.pdf using Guid(0ed677062fe80e645b990863ab31ebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ca06a16661151484fcbf578bbb08ab') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.516134 seconds.
+  path: Assets/StylizedWater2/Prefabs
+  artifactKey: Guid(2e9414dd199e9ee4c8b9ebf674e5a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs using Guid(2e9414dd199e9ee4c8b9ebf674e5a836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b0e0514751fdfc81fa5a0efd92074d') in 0.003883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.312426 seconds.
+  path: Assets/StylizedWater2/Prefabs/StylizedWater2_Ocean.prefab
+  artifactKey: Guid(915defc4859ebad4789c339184a60ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/StylizedWater2_Ocean.prefab using Guid(915defc4859ebad4789c339184a60ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1b9c1556aafad33c9987bc127e62eb') in 1.680439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedWater2/Prefabs/StylizedWater_Lowpoly.prefab
+  artifactKey: Guid(0188e8e4d666f9245860a6b3dfeb4f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/StylizedWater_Lowpoly.prefab using Guid(0188e8e4d666f9245860a6b3dfeb4f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11a1bbad173b02eafb8366744c9df9f') in 0.614397 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

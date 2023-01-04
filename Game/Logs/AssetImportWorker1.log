@@ -15,7 +15,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49469
+53058
 Successfully changed project path to: C:/Users/Exo/Documents/GitHub/example_game/Game
 C:/Users/Exo/Documents/GitHub/example_game/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Exo/Documents/GitHub/example_game/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.33 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 83.53 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,78 +63,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004256 seconds.
+Registered in 0.004326 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.64 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 80.27 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.461 seconds
+- Completed reload, in  0.469 seconds
 Domain Reload Profiling:
-	ReloadAssembly (461ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (44ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (70ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (214ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004761 seconds.
+Registered in 0.004779 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 83.19 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 81.42 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (975ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
+			CreateAndSetChildDomain (13ms)
 		EndReloadAssembly (817ms)
-			LoadAssemblies (66ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (187ms)
+			SetupTypeCache (188ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (457ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -142,13 +142,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5597 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 80 unused Assets / (1.8 MB). Loaded Objects now: 6039.
 Memory consumption went from 245.1 MB to 243.3 MB.
-Total: 2.874200 ms (FindLiveObjects: 0.352900 ms CreateObjectMapping: 0.172900 ms MarkObjects: 1.990000 ms  DeleteObjects: 0.357200 ms)
+Total: 3.258700 ms (FindLiveObjects: 0.471700 ms CreateObjectMapping: 0.245300 ms MarkObjects: 2.151900 ms  DeleteObjects: 0.389200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,19 +162,116 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29086.410688 seconds.
-  path: Assets/Geo/Pillars/LargePillar2.fbx
-  artifactKey: Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar2.fbx using Guid(17714857687a34441baf7c37dd10c8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efefc65f1320295267d200fb1c703168') in 0.256140 seconds 
+  Time since last request: 25895.466328 seconds.
+  path: Assets/HDA/sop_Exo.dev.plainscatter.1.0.hda
+  artifactKey: Guid(d46fab951088f2a4482122a7655b269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDA/sop_Exo.dev.plainscatter.1.0.hda using Guid(d46fab951088f2a4482122a7655b269e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83edc1e4c8b200eb3a4a3003a1557280') in 0.033063 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Exo\Documents\GitHub\example_game\Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.64 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.44 ms, found 7 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5410 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (2.0 MB). Loaded Objects now: 6060.
+Memory consumption went from 230.8 MB to 228.8 MB.
+Total: 2.869400 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.173000 ms MarkObjects: 1.937300 ms  DeleteObjects: 0.442000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1104.984976 seconds.
-  path: Assets/Geo/Pillars/LargePillar3.fbx
-  artifactKey: Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar3.fbx using Guid(c06fa6dacecdc104588998b0816f4d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ce68db5a4ba1923dcae61ef3f99053') in 0.348349 seconds 
+  Time since last request: 5338.004559 seconds.
+  path: Assets/StylizedWater2/Prefabs/StylizedWater_Desktop.prefab
+  artifactKey: Guid(6d38f28c8f53eb64383bc1dc0b9c8fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/StylizedWater_Desktop.prefab using Guid(6d38f28c8f53eb64383bc1dc0b9c8fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ddd42da3721cf2d35c510d1787e296') in 1.896234 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Geo/Pillars/LargePillar5.fbx
-  artifactKey: Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Geo/Pillars/LargePillar5.fbx using Guid(7de14189a3c4ff34094e489c307e343d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ed65192e5025b1e2d5297f2eb5e799') in 0.057668 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/StylizedWater2/Prefabs/StylizedWater_Mobile.prefab
+  artifactKey: Guid(dc629dc53bccd7f4db193a1813466e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/StylizedWater_Mobile.prefab using Guid(dc629dc53bccd7f4db193a1813466e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf1b5d37e715cf2fb353423f7650296') in 0.254872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StylizedWater2/Prefabs/StylizedWater_Toon.prefab
+  artifactKey: Guid(1a327dcbc1bee1b42848752cd8540c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/StylizedWater_Toon.prefab using Guid(1a327dcbc1bee1b42848752cd8540c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32de18842f69a328289a370d248d60f') in 0.233706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 160.651398 seconds.
+  path: Assets/StylizedWater2/Prefabs/Effects/WaterfallBase.prefab
+  artifactKey: Guid(4c3d2ec178b3ae4439db4347ff67b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/Effects/WaterfallBase.prefab using Guid(4c3d2ec178b3ae4439db4347ff67b7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1505a1ca6bf5976795dd7a0b963820f4') in 0.963948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Collision.prefab
+  artifactKey: Guid(7910ad3d8376cdc4eb35254d53a2c9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Collision.prefab using Guid(7910ad3d8376cdc4eb35254d53a2c9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cef51b1bee56e8764c6fddd14815dbd') in 0.287933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Stationairy.prefab
+  artifactKey: Guid(80bca475e2653584bbce994c1c05b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Stationairy.prefab using Guid(80bca475e2653584bbce994c1c05b884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f511c3eeb10d6e3314cf76e7bd4f545') in 0.207818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Trail.prefab
+  artifactKey: Guid(63656e13f1f71ae49900cb61fa7cd47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/Effects/WaterRipples_Trail.prefab using Guid(63656e13f1f71ae49900cb61fa7cd47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b08ae9c8f393d56c5efee2a14b6cdc') in 0.025740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Up.prefab
+  artifactKey: Guid(1f58020111bdca64098e62c1be7abc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedWater2/Prefabs/Effects/WaterSplash_Up.prefab using Guid(1f58020111bdca64098e62c1be7abc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7209f6dc39d823db1bfdc4c00900c8') in 0.014594 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
